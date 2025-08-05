@@ -29,14 +29,16 @@ h1 {
 .imageContainer img {
   width: 100%;
   height: auto;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border-radius: 8px;
 }
 
 /* Table Styling */
 table {
   width: 100%;
+  background-color:#c0c8c8;
   border-spacing: 20px;
+  border: 1px solid black;
 }
 
 td.side {
@@ -45,11 +47,12 @@ td.side {
 }
 
 td.middle {
-  width: 600px;
+  width: 400px;
   vertical-align: top;
   font-size: 16px;
   color: #333;
   line-height: 1.5;
+  text-align:center
 }
 
 td img {
